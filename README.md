@@ -12,6 +12,8 @@
 ![HTML Anatomy](./01-html-css-basics/extra-files/html-anatomy.jpg)  
 **Element Name: `paragraph element`**
 
+<br /><br />
+  
 **[Return to Top 👆](#100-days-of-code-2025)**  
 
 ---
