@@ -2,8 +2,9 @@
 
 ## Index:
 
+### HTML & CSS 
 1. **[Anatomy of an HTML element 👇](#anatomy-of-an-html-element)**
-1. **[Anatomy of an CSS Ruleset/Rule 👇](#anatomy-of-a-css-ruleset)**
+2. **[Anatomy of an CSS Ruleset/Rule 👇](#anatomy-of-a-css-ruleset)**
 
 
 <br />
