@@ -9,7 +9,7 @@
 
 ## Anatomy of an HTML element
 
-![HTML Anatomy](./01-html-css-basics/extra-files/html-anatomy.jpg)
+![HTML Anatomy](./01-html-css-basics/extra-files/html-anatomy.jpg)  
 **Element Name: `paragraph element`**
 
 **[Return to Top 👆](#100-days-of-code-2025)**  
