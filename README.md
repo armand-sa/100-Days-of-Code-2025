@@ -39,11 +39,7 @@
 
 ```html
 <!-- Using inline CSS via the style attribute -->
-<h1
-  style="font-family: sans-serif; text-align: center; color: rgb(83, 75, 75);"
->
-  Arri's Challenge for Monday, January 20th, 2025
-</h1>
+<h1 style="font-family: sans-serif; text-align: center; color: rgb(83, 75, 75);">Arri's Challenge for Monday, January 20th, 2025</h1>
 ```
 
 ## Internal Styling  
