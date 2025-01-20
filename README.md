@@ -31,3 +31,12 @@
 **[Return to Top 👆](#100-days-of-code-2025)**  
 
 ---
+## Anatomy of a CSS ruleset
+
+![Anatomy of a CSS ruleset](./01-html-css-basics/extra-files/css-anatomy.jpg)  
+
+<br />
+
+**[Return to Top 👆](#100-days-of-code-2025)**  
+
+---
