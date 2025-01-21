@@ -41,9 +41,7 @@
 
 ```html
 <!-- Using inline CSS via the style attribute -->
-<h1
-  style="font-family: sans-serif; text-align: center; color: rgb(83, 75, 75);"
->
+<h1 style="font-family: sans-serif; text-align: center; color: rgb(83, 75, 75);">
   Arri's Challenge for Monday, January 20th, 2025
 </h1>
 ```
@@ -93,12 +91,7 @@
 <br />
 
 ```html
-<a
-  href="https://developer.mozilla.org/en-US/"
-  target="_blank"
-  rel="noopener noreferrer"
-  >more learning resources</a
->
+<a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">more learning resources</a>
 ```
 
 ```css
