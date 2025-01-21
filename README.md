@@ -63,9 +63,10 @@
 </head>
 ```
 
-## External Styling
+## External Styling  
 
-> [!TIP] > **_"Separation of concerns"_**
+> [!TIP] 
+> **"Separation of concerns"**  
 
 <br />
 
@@ -84,9 +85,10 @@
 
 ## Correct order for Pseudo-classes for `<a>` (anchor tags) & `<button>` (buttons)
 
-### Anchor Tags:
+### Anchor Tags:  
 
-> [!IMPORTANT] > **Remember: `LoVe HAte Focus D` (Link → Visited → Hover → Active → Focus → Disabled)!!**
+> [!IMPORTANT] 
+> **Remember: `LoVe HAte Focus D` (Link → Visited → Hover → Active → Focus → Disabled)!!**  
 
 <br />
 
@@ -146,9 +148,10 @@ a:disabled {
 }
 ```
 
-### Buttons:
+### Buttons:  
 
-> [!IMPORTANT] > **Remember: `HAF D` (Hover → Active → Focus → Disabled)!!**
+> [!IMPORTANT]  
+> **Remember: `HAF D` (Hover → Active → Focus → Disabled)!!**
 
 <br />
 
