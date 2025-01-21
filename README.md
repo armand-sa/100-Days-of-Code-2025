@@ -7,7 +7,7 @@
 1. **[Anatomy of an HTML element 👇](#anatomy-of-an-html-element)**
 2. **[Anatomy of an CSS Ruleset/Rule 👇](#anatomy-of-a-css-ruleset)**
 3. **[CSS - Inline, Internal, External 👇](#css---inline-internal-external)**
-4. **[CSS - Correct order for `<a>` Pseudo-classes 👇](#correct-order-for-a-pseudo-classes)**
+4. **[CSS - Correct order for Pseudo-classes for `<a>` (anchor tags) & `<button>` (buttons) 👇](#correct-order-for-pseudo-classes-for-a-anchor-tags--button-buttons)**
 
 <br />
 
@@ -36,14 +36,18 @@
 
 ## CSS - Inline, Internal, External
 
-## Inline Styling  
+## Inline Styling
 
 ```html
 <!-- Using inline CSS via the style attribute -->
-<h1 style="font-family: sans-serif; text-align: center; color: rgb(83, 75, 75);">Arri's Challenge for Monday, January 20th, 2025</h1>
+<h1
+  style="font-family: sans-serif; text-align: center; color: rgb(83, 75, 75);"
+>
+  Arri's Challenge for Monday, January 20th, 2025
+</h1>
 ```
 
-## Internal Styling  
+## Internal Styling
 
 ```html
 <head>
@@ -58,7 +62,7 @@
 </head>
 ```
 
-## External Styling  
+## External Styling
 
 ```html
 <head>
@@ -73,16 +77,17 @@
 
 ---
 
-## Correct order for `<a>` Pseudo-classes
+## Correct order for Pseudo-classes for `<a>` (anchor tags) & `<button>` (buttons)
 
-> [!IMPORTANT]
-> **Remember: `LoVe HAte Focus`!!**
+### Anchor Tags:
+
+> [!IMPORTANT] > **Remember: `LoVe HAte Focus`!!**
 
 ```css
 a {
   color: rgb(167, 1, 78);
   text-decoration: none;
-  transition: all 3ms ease-in-out;
+  transition: all 300ms ease-in-out; /* Increased for smoother transitions */
 }
 
 /* 1. :link Pseudo-class - unvisited links */
@@ -115,6 +120,58 @@ a:focus {
 a:focus-visible {
   outline: 2px solid rgb(167, 1, 78);
   outline-offset: 2px;
+}
+
+/* 7. :disabled Pseudo-class - disabled state */
+a:disabled {
+  color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+```
+
+### Buttons:
+
+> [!IMPORTANT] > **Remember: `HAF D` (Hover → Active → Focus → Disabled)!!**
+
+```css
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+/* 1. :hover Pseudo-class - mouse over buttons */
+button:hover {
+  background: #0056b3;
+}
+
+/* 2. :active Pseudo-class - clicked/pressed buttons */
+button:active {
+  transform: scale(0.98);
+}
+
+/* 3. :focus Pseudo-class - keyboard navigation */
+button:focus {
+  outline: 2px solid #0056b3;
+  outline-offset: 2px;
+}
+
+/* 4. :focus-visible Pseudo-class - enhanced keyboard focus */
+button:focus-visible {
+  outline: 2px solid #0056b3;
+  outline-offset: 2px;
+}
+
+/* 5. :disabled Pseudo-class - disabled state */
+button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
 }
 ```
 
