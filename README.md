@@ -64,7 +64,7 @@
 ## External Styling  
 
 > [!TIP] 
-> **"Separation of concerns"**  
+> **"Separation of Concerns" (SoC) - Separate HTML, CSS, and JavaScript into different files.**  
 
 <br />
 
