@@ -4,8 +4,8 @@
 
 ### HTML & CSS
 
-1. **[Anatomy of an HTML element 👇](#anatomy-of-an-html-element)**
-2. **[Anatomy of an CSS Ruleset/Rule 👇](#anatomy-of-a-css-ruleset)**
+1. **[HTML - Anatomy of an HTML element 👇](#anatomy-of-an-html-element)**
+2. **[CSS - Anatomy of an CSS Ruleset/Rule 👇](#anatomy-of-a-css-ruleset)**
 3. **[CSS - Inline, Internal, External 👇](#css---inline-internal-external)**
 4. **[CSS - Correct order for Pseudo-classes for `<a>` (anchor tags) & `<button>` (buttons) 👇](#correct-order-for-pseudo-classes-for-a-anchor-tags--button-buttons)**
 
