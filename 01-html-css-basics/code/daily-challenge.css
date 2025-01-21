@@ -1,11 +1,12 @@
+/* Element/Type Selector */
 h1 {
-  font-family: sans-serif;
+  font-family: "Oswald", serif;
   text-align: center;
   color: rgb(83, 75, 75);
 }
 
 p {
-  font-family: sans-serif;
+  font-family: "Fira Sans", serif;
   text-align: center;
   color: rgb(83, 75, 75);
 }
@@ -16,8 +17,14 @@ a {
   transition: all 300ms ease-in-out;
 }
 
-/* :hover Pseudo-class - mouse over links */
 a:hover {
   text-decoration: underline;
   background-color: rgba(167, 1, 78, 0.15);
+}
+
+/* ID Selector */
+#todays-challenge {
+  color: rgb(170, 96, 83);
+  font-weight: bold;
+  font-size: 52px;
 }
