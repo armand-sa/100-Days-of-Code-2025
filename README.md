@@ -13,7 +13,7 @@
 
 ---
 
-## Anatomy of an HTML element
+## <span style="color: red">Anatomy of an HTML element</span>
 
 ![HTML Anatomy](./01-html-css-basics/extra-files/html-anatomy.jpg)  
 **Element Name: `paragraph element`**
@@ -64,8 +64,7 @@
 
 ## External Styling
 
-> [!TIP]
-> ***"Separation of concerns"***
+> [!TIP] > **_"Separation of concerns"_**
 
 <br />
 
@@ -86,14 +85,18 @@
 
 ### Anchor Tags:
 
-> [!IMPORTANT]
-> **Remember: `LoVe HAte Focus D` (Link → Visited → Hover → Active → Focus → Disabled)!!**
+> [!IMPORTANT] > **Remember: `LoVe HAte Focus D` (Link → Visited → Hover → Active → Focus → Disabled)!!**
 
 <br />
 
 ```html
-<a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">more learning resources</a>
-```     
+<a
+  href="https://developer.mozilla.org/en-US/"
+  target="_blank"
+  rel="noopener noreferrer"
+  >more learning resources</a
+>
+```
 
 ```css
 a {
@@ -144,8 +147,7 @@ a:disabled {
 
 ### Buttons:
 
-> [!IMPORTANT]
-> **Remember: `HAF D` (Hover → Active → Focus → Disabled)!!**
+> [!IMPORTANT] > **Remember: `HAF D` (Hover → Active → Focus → Disabled)!!**
 
 <br />
 
