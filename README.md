@@ -2,7 +2,7 @@
 
 ## Index:
 
-### HTML & CSS
+### HTML & CSS:
 
 1. **[HTML - Anatomy of an HTML element 👇](#anatomy-of-an-html-element)**
 2. **[CSS - Anatomy of an CSS Ruleset/Rule 👇](#anatomy-of-a-css-ruleset)**
@@ -64,6 +64,11 @@
 
 ## External Styling
 
+> [!TIP]
+> ***"Separation of concerns"***
+
+<br />
+
 ```html
 <head>
   <!-- Using external CSS -->
@@ -85,6 +90,10 @@
 > **Remember: `LoVe HAte Focus D` (Link → Visited → Hover → Active → Focus → Disabled)!!**
 
 <br />
+
+```html
+<a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">more learning resources</a>
+```     
 
 ```css
 a {
