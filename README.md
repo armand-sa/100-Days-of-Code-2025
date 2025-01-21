@@ -79,9 +79,10 @@
 
 ## Correct order for Pseudo-classes for `<a>` (anchor tags) & `<button>` (buttons)
 
-### Anchor Tags:
+### Anchor Tags:  
 
-> [!IMPORTANT] > **Remember: `LoVe HAte Focus`!!**
+> [!IMPORTANT] 
+> **Remember: `LoVe HAte Focus D`!!**  
 
 ```css
 a {
@@ -130,9 +131,10 @@ a:disabled {
 }
 ```
 
-### Buttons:
+### Buttons:  
 
-> [!IMPORTANT] > **Remember: `HAF D` (Hover → Active → Focus → Disabled)!!**
+> [!IMPORTANT] 
+> **Remember: `HAF D` (Hover → Active → Focus → Disabled)!!**  
 
 ```css
 button {
