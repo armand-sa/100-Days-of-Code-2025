@@ -81,8 +81,12 @@
 
 ### Anchor Tags:  
 
+<br />
+
 > [!IMPORTANT] 
 > **Remember: `LoVe HAte Focus D`!!**  
+
+<br />
 
 ```css
 a {
@@ -133,8 +137,12 @@ a:disabled {
 
 ### Buttons:  
 
+<br />
+
 > [!IMPORTANT] 
 > **Remember: `HAF D` (Hover → Active → Focus → Disabled)!!**  
+
+<br />
 
 ```css
 button {
