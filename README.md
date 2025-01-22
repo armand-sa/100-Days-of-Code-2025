@@ -8,7 +8,7 @@
 2. **[CSS - Anatomy of an CSS Ruleset/Rule 👇](#anatomy-of-a-css-ruleset)**
 3. **[CSS - Inline, Internal, External 👇](#css---inline-internal-external)**
 4. **[CSS - Correct order for Pseudo-classes for `<a>` (anchor tags) & `<button>` (buttons) 👇](#correct-order-for-pseudo-classes-for-a-anchor-tags--button-buttons)**
-5. **[CSS - Centering an element 👇](#correct-order-for-pseudo-classes-for-a-anchor-tags--button-buttons)**
+5. **[CSS - Centering an element 👇](#)**
 
 <br />
 
