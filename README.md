@@ -11,6 +11,8 @@
 
 ## HTML & CSS Deep Dive:  
 5. **[CSS - Remove list styles, e.g. circle, squares, numbers, etc. 👇](#remove-list-styles-e-g-circle-squares-numbers-etc)**
+6. **[CSS - Box Model - Box Sizing 👇](#box-model---box-sizing)**  
+
 
 <br />
 
@@ -206,6 +208,24 @@ ol {
   list-style: none;
 }
 ```
+
+<br />
+
+**[Return to Top 👆](#100-days-of-code-2025)**
+
+---
+
+## Box Model - Box Sizing   
+
+
+```css
+/* Ensures padding and border are included in the total width and height. The default is content-box. */
+* {
+  box-sizing: border-box;
+}
+```
+
+![Box Model](extra-files/box-model.webp)  
 
 <br />
 
