@@ -305,7 +305,7 @@ BUTTON {
   /* 
     EASIEST: Method 3: BFC (Block Formatting Context): 
     - A BFC is a region in a webpage that creates its own independent formatting environment  
-    that follows its own rules and is isolated from outside elements. 
+      that follows its own rules and is isolated from outside elements. 
     - This method is the EASIEST and most RELIABLE way to prevent margin collapse.
   */
   display: flex;
