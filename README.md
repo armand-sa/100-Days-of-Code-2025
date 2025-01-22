@@ -1,6 +1,8 @@
 # 100 Days of Code 2025
 
-## Frontend:  
+<br />
+
+# 1. Frontend:  
 
 ![Frontend](extra-files/Frontend.webp)  
 
@@ -15,7 +17,7 @@
 
 ---
 
-## Backend:  
+# 2. Backend:  
 
 ![Backend](extra-files/Backend.webp)  
 
