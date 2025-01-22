@@ -201,7 +201,7 @@ button:disabled {
 
 
 ```css
-/* On the parent element */
+/* INHERITANCE: On the parent element, can style the li's individually later on if needed. */
 ol {
   list-style: none;
 }
