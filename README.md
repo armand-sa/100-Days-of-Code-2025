@@ -19,7 +19,7 @@
 
 ## Backend:  
 
-![Backend](extra-files/Backend.webp)  
+![Backend|height=50%](extra-files/Backend.webp)  
 
 1. **[Coming Soon🔻]()**
 2. **[Coming Soon 🔻]()**
