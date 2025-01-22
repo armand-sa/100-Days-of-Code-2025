@@ -16,7 +16,7 @@
 8. **[CSS - ⚠️ Margin COLLAPSE🔻](#margin-collapse)**  
 9. **[CSS - Centering an Element🔻](#centering-an-element)** 
 10. **[HTML - ⚠️ Semantic HTML🔻](#semantic-html)**
-11. **[CSS - Selectors and Combinators🔻](#css-selectors-and-combinators)**
+11. **[CSS - ⚠️ Selectors and Combinators🔻](#css-selectors-and-combinators)**
 
 
 <br />
