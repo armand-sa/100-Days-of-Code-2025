@@ -1,10 +1,10 @@
 # 100 Days of Code 2025
 
-## Index:  
-
 ## Frontend:  
 
 ![Frontend](extra-files/Frontend.webp)  
+
+## Index:  
 
 1. **[HTML & CSS🔻](./HTML-CSS.md)**
 2. **[Coming Soon 🔻]()**
@@ -18,6 +18,8 @@
 ## Backend:  
 
 ![Backend](extra-files/Backend.webp)  
+
+## Index:  
 
 1. **[Coming Soon🔻]()**
 2. **[Coming Soon 🔻]()**
