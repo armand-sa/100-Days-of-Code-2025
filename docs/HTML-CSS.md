@@ -14,7 +14,7 @@
 6. **[CSS - Box Model - ⚠️ Box Sizing 🔻](#box-model---box-sizing)**  
 7. **[CSS - ⚠️ Different VALUES AND SHORTHANDS for PADDING and MARGIN 🔻](#different-values-and-shorthands-for-padding-and-margin)**  
 8. **[CSS - ⚠️ Margin COLLAPSE 🔻](#margin-collapse)**  
-
+9. **[CSS - Centering an Element 🔻](#centering-an-element)**  
 
 
 <br />
@@ -311,6 +311,23 @@ BUTTON {
   display: flex;
   /* or */
   overflow: hidden;
+}
+```
+
+
+<br />
+
+**[Return to Top 🔝](#100-days-of-code-2025)**
+
+---
+
+## Centering an Element  
+
+
+```css
+ol {
+  /* Horizontal Margin: auto (centres the element horizontally) */
+  margin: 36px auto 0 auto;
 }
 ```
 
