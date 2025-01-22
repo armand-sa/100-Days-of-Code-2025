@@ -2,8 +2,6 @@
 
 ## Index:  
 
----
-
 ## Frontend:  
 
 ![Frontend](extra-files/Frontend.webp)  
