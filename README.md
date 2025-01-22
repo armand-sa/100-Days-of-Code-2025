@@ -11,7 +11,8 @@
 
 ## HTML & CSS Deep Dive:  
 5. **[CSS - Remove list styles, e.g. circle, squares, numbers, etc. 👇](#remove-list-styles-eg-circle-squares-numbers-etc)**
-6. **[CSS - Box Model - Box Sizing 👇](#box-model---box-sizing)**  
+6. **[CSS - Box Model - ⚠️ Box Sizing 👇](#box-model---box-sizing)**  
+7. **[CSS - ⚠️ Different values and shorthands for PADDING and MARGIN 👇](#different-values-and-shorthands-for-padding-and-margin)**  
 
 
 <br />
@@ -226,6 +227,47 @@ ol {
 ```
 
 ![Box Model](extra-files/box-model.webp)  
+
+<br />
+
+**[Return to Top 👆](#100-days-of-code-2025)**
+
+---
+
+
+## Different values and shorthands for PADDING and MARGIN  
+
+
+```css
+BUTTON {
+  /* 1. Horizontal refers to the main-axis (x-axis), affecting the left and right sides. */
+  /* 2. Vertical refers to the cross-axis (y-axis), affecting the top and bottom sides. */
+
+  /* -------------------------------------------------------------------------- */
+
+  /* Four values: Top (y-axis) | Right (x-axis) | Bottom (y-axis) | Left (x-axis) */
+  padding: 5px 10px 20px 12px;
+
+  /* Three values: Top (y-axis) | Horizontal (x-axis: Right & Left) | Bottom (y-axis) */
+  padding: 5px 10px 20px;
+
+  /* Two values: Vertical (y-axis: Top & Bottom) | Horizontal (x-axis: Right & Left) */
+  padding: 5px 10px;
+
+  /* One value: All sides (y-axis and x-axis) */
+  padding: 5px;
+
+  /* ⚠️ MARGIN ONLY ⚠️ - x-axis: Centres the element horizontally on the main axis */
+  margin: auto;
+
+  /* ⚠️ MARGIN ONLY ⚠️ - Combination of absolute and auto values */
+  /* Top (y-axis): 10px */
+  /* Horizontal (x-axis: Right & Left): auto (centres horizontally) */
+  /* Bottom (y-axis): 20px */
+  margin: 10px auto 20px;
+}
+```
+
 
 <br />
 
