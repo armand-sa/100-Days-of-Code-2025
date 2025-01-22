@@ -13,6 +13,7 @@
 5. **[CSS - Remove list styles, e.g. circle, squares, numbers, etc. 🔻](#remove-list-styles-eg-circle-squares-numbers-etc)**
 6. **[CSS - Box Model - ⚠️ Box Sizing 🔻](#box-model---box-sizing)**  
 7. **[CSS - ⚠️ Different VALUES AND SHORTHANDS for PADDING and MARGIN 🔻](#different-values-and-shorthands-for-padding-and-margin)**  
+8. **[CSS - ⚠️ Margin COLLAPSE 🔻](#margin-collapse)**  
 
 
 <br />
@@ -265,6 +266,45 @@ BUTTON {
   /* Horizontal (x-axis: Right & Left): auto (centres horizontally) */
   /* Bottom (y-axis): 20px */
   margin: 10px auto 20px;
+}
+```
+
+
+<br />
+
+**[Return to Top 🔝](#100-days-of-code-2025)**
+
+---
+
+## Margin COLLAPSE  
+
+> [!IMPORTANT]
+> **Margin collapse occurs when two vertical margins (top/bottom) meet. Instead of adding up, the larger margin "wins".**
+
+```css
+/* Basic Example */
+.box-1 {
+  margin-bottom: 20px;
+}
+
+.box-2 {
+  margin-top: 30px;
+}
+
+/* The space between box-1 and box-2 will be 30px (not 50px) */
+
+/* Common ways to prevent margin collapse: */
+.box-1 {
+  /* Method 1: Add a border */
+  border-bottom: 1px solid transparent;
+  
+  /* Method 2: Add padding */
+  padding-bottom: 1px;
+  
+  /* Method 3: Create a new formatting context */
+  display: flex;
+  /* or */
+  overflow: hidden;
 }
 ```
 
