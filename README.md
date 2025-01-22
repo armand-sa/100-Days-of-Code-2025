@@ -3,6 +3,8 @@
 1. **[Frontend🔻](#1-frontend)**
 2. **[Backend🔻](#2-backend)**  
 
+---
+
 ## 1. FRONTEND:  
 
 ![Frontend](extra-files/Frontend.webp)  
