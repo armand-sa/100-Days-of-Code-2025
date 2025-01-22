@@ -19,7 +19,7 @@
 
 ## Backend:  
 
-![Backend|height=50%](extra-files/Backend.webp)  
+![Backend](extra-files/Backend.webp)  
 
 1. **[Coming Soon🔻]()**
 2. **[Coming Soon 🔻]()**
@@ -27,3 +27,5 @@
 <br />
 
 **[Return to Top 🔝](#100-days-of-code-2025)**
+
+---
