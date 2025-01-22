@@ -8,7 +8,7 @@
 2. **[CSS - Anatomy of an CSS Ruleset/Rule 👇](#anatomy-of-a-css-ruleset)**
 3. **[CSS - Inline, Internal, External 👇](#css---inline-internal-external)**
 4. **[CSS - Correct order for Pseudo-classes for `<a>` (anchor tags) & `<button>` (buttons) 👇](#correct-order-for-pseudo-classes-for-a-anchor-tags--button-buttons)**
-5. **[CSS - Centering an element 👇](#)**
+5. **[CSS - Remove list styles, e.g. circle, squares, numbers, etc. 👇](#remove-list-styles-e-g-circle-squares-numbers-etc)**
 
 <br />
 
@@ -186,6 +186,22 @@ button:disabled {
   background: #cccccc;
   cursor: not-allowed;
   opacity: 0.7;
+}
+```
+
+<br />
+
+**[Return to Top 👆](#100-days-of-code-2025)**
+
+---
+
+## Remove list styles, e.g. circle, squares, numbers, etc.   
+
+
+```css
+/* On the parent element */
+ol {
+  list-style: none;
 }
 ```
 
