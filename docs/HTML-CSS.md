@@ -16,6 +16,7 @@
 8. **[CSS - ⚠️ Margin COLLAPSE🔻](#margin-collapse)**  
 9. **[CSS - Centering an Element🔻](#centering-an-element)** 
 10. **[HTML - ⚠️ Semantic HTML🔻](#semantic-html)**
+11. **[CSS - Selectors and Combinators🔻](#css-selectors-and-combinators)**
 
 
 <br />
@@ -451,6 +452,83 @@ ol {
 </html>
 ```
 
+
+<br />
+
+**[Return to Top 🔝](#100-days-of-code-2025)**
+
+
+---
+
+## CSS Selectors and Combinators  
+
+### Key Selectors
+
+```css
+/* 1. Basic Selectors - Target elements directly */
+.class { }              /* Class selector [0,0,1,0] */
+#id { }                 /* ID selector [0,1,0,0] (avoid for styling) */
+p { }                   /* Element selector [0,0,0,1] */
+* { }                   /* Universal selector [0,0,0,0] */
+
+/* 2. Attribute Selectors - Target elements by their attributes */
+[disabled] { }          /* Has attribute [0,0,1,0] */
+[type="text"] { }       /* Exact match [0,0,1,0] */
+[class*="btn-"] { }     /* Contains [0,0,1,0] */
+[href^="https"] { }     /* Starts with [0,0,1,0] */
+[src$=".pdf"] { }       /* Ends with [0,0,1,0] */
+
+/* 3. Combinators - Define relationships between elements */
+article p { }           /* Descendant: any p inside article [0,0,0,2] */
+article > p { }         /* Child: direct p only [0,0,0,2] */
+h2 + p { }             /* Adjacent: p right after h2 [0,0,0,2] */
+h2 ~ p { }             /* Sibling: any p after h2 [0,0,0,2] */
+
+/* 4. Pseudo-classes - Target special states */
+
+/* Links: Remember "LoVe HAte Focus D" order! */
+a:link { }             /* 1. Unvisited links [0,0,1,1] */
+a:visited { }          /* 2. Visited links [0,0,1,1] */
+a:hover { }            /* 3. Mouse over [0,0,1,1] */
+a:active { }           /* 4. During click [0,0,1,1] */
+a:focus { }            /* 5. Keyboard navigation [0,0,1,1] */
+a:disabled { }         /* 6. Disabled state [0,0,1,1] */
+
+/* Buttons: Remember "HAF D" order! */
+button:hover { }       /* Mouse over [0,0,1,1] */
+button:active { }      /* During click [0,0,1,1] */
+button:focus { }       /* Keyboard focus [0,0,1,1] */
+button:disabled { }    /* Disabled state [0,0,1,1] */
+
+/* Form States */
+input:checked { }      /* Checked inputs [0,0,1,1] */
+input:valid { }        /* Valid inputs [0,0,1,1] */
+input:invalid { }      /* Invalid inputs [0,0,1,1] */
+
+/* Position-based */
+li:first-child { }     /* First element [0,0,1,1] */
+li:last-child { }      /* Last element [0,0,1,1] */
+li:nth-child(2n) { }   /* Even elements [0,0,1,1] */
+
+/* 5. Pseudo-elements - Style specific parts of elements */
+p::first-letter { }    /* First letter [0,0,0,2] */
+p::first-line { }      /* First line [0,0,0,2] */
+p::selection { }       /* Selected text [0,0,0,1] */
+::placeholder { }      /* Input placeholder [0,0,0,1] */
+
+/* Content insertion */
+.quote::before {       /* Before element [0,0,1,1] */
+    content: "❝";
+}
+.quote::after {        /* After element [0,0,1,1] */
+    content: "❞";
+}
+```
+
+> [!IMPORTANT]
+> **Remember these orders:**
+> - Links: **LoVe HAte** (Link, Visited, Hover, Active)
+> - Buttons: **HAF D** (Hover, Active, Focus, Disabled)
 
 <br />
 
