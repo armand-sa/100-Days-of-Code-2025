@@ -7,11 +7,11 @@
 
 ## 1. FRONTEND:  
 
-![Frontend](extra-files/Frontend.webp)  
+![Frontend](assets/Frontend.webp)  
 
 ### Index:  
 
-1. **[HTML & CSS🔻](./HTML-CSS.md)**
+1. **[HTML & CSS🔻](./docs/HTML-CSS.md)**
 2. **[Coming Soon🔻]()**
 
 <br />
@@ -22,7 +22,7 @@
 
 ## 2. BACKEND:  
 
-![Backend](extra-files/Backend.webp)  
+![Backend](assets/Backend.webp)  
 
 ### Index:  
 

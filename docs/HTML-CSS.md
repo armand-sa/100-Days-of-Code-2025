@@ -23,7 +23,7 @@
 
 ## Anatomy of an HTML element
 
-![HTML Anatomy](extra-files/html-anatomy.jpg)  
+![HTML Anatomy](assets/html-anatomy.jpg)  
 **Element Name: `paragraph element`**
 
 <br />
@@ -34,7 +34,7 @@
 
 ## Anatomy of a CSS ruleset
 
-![Anatomy of a CSS ruleset](extra-files/css-anatomy.jpg)
+![Anatomy of a CSS ruleset](assets/css-anatomy.jpg)
 
 <br />
 
@@ -228,7 +228,7 @@ ol {
 }
 ```
 
-![Box Model](extra-files/box-model.webp)  
+![Box Model](assets/box-model.webp)  
 
 <br />
 
