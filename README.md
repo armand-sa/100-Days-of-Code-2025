@@ -10,7 +10,7 @@
 ### Index:  
 
 1. **[HTML & CSS🔻](./HTML-CSS.md)**
-2. **[Coming Soon 🔻]()**
+2. **[Coming Soon🔻]()**
 
 <br />
 
@@ -25,7 +25,7 @@
 ### Index:  
 
 1. **[Coming Soon🔻]()**
-2. **[Coming Soon 🔻]()**
+2. **[Coming Soon🔻]()**
 
 <br />
 
