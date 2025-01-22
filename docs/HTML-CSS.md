@@ -327,6 +327,7 @@ BUTTON {
 ```css
 ol {
   /* Horizontal Margin: auto (centres the element horizontally) */
+  /* Top | Right (auto) | Bottom | Left (auto) */
   margin: 36px auto 0 auto;
 }
 ```
