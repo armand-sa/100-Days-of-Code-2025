@@ -10,7 +10,7 @@
 4. **[CSS - Correct order for Pseudo-classes for `<a>` (anchor tags) & `<button>` (buttons) 👇](#correct-order-for-pseudo-classes-for-a-anchor-tags--button-buttons)**  
 
 ## HTML & CSS Deep Dive:  
-5. **[CSS - Remove list styles, e.g. circle, squares, numbers, etc. 👇](#remove-list-styles-e-g-circle-squares-numbers-etc)**
+5. **[CSS - Remove list styles, e.g. circle, squares, numbers, etc. 👇](#remove-list-styles-eg-circle-squares-numbers-etc)**
 6. **[CSS - Box Model - Box Sizing 👇](#box-model---box-sizing)**  
 
 
