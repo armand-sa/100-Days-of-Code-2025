@@ -466,8 +466,8 @@ ol {
 
 ```css
 /* 1. Basic Selectors - Target elements directly */
-.class { }              /* Class selector [0,0,1,0] */
 #id { }                 /* ID selector [0,1,0,0] (avoid for styling) */
+.class { }              /* Class selector [0,0,1,0] */
 p { }                   /* Element selector [0,0,0,1] */
 * { }                   /* Universal selector [0,0,0,0] */
 
