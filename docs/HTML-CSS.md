@@ -18,7 +18,7 @@
 10. **[HTML - ⚠️ Semantic HTML🔻](#semantic-html)**
 11. **[CSS - ⚠️ Selectors and Combinators🔻](#css-selectors-and-combinators)**
 12. **[HTML - 📅 Dates `<time>`🔻](#html-dates-time)**
-13. **[CSS - 📦 Box Shadows🔻](#css-box-shadows)**
+13. **[CSS - 🎁 Box Shadows🔻](#css-box-shadows)**
 
 <br />
 
