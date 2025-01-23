@@ -18,7 +18,7 @@
 10. **[HTML - ⚠️ Semantic HTML🔻](#semantic-html)**
 11. **[CSS - ⚠️ Selectors and Combinators🔻](#css-selectors-and-combinators)**
 12. **[HTML - 📅 Dates `<time>`🔻](#html-dates-time)**
-
+13. **[CSS - 📦 Box Shadows🔻](#css-box-shadows)**
 
 <br />
 
@@ -544,6 +544,27 @@ p::selection { }       /* Selected text [0,0,0,1] */
 <h2>
   <time datetime="2025-01-23">Thursday, January 23rd, 2025</time>
 </h2>
+```
+
+<br />
+
+**[Return to Top 🔝](#100-days-of-code-2025)**
+
+---
+
+## CSS Box Shadows
+
+
+```css
+li {
+  /* 
+    1. 1px: horizontal offset - x-axis (a positive value moves the shadow to the RIGHT)
+    2. 1px: vertical offset - y-axis (a positive value moves the shadow DOWN)
+    3. 4px: blur radius
+    4. rgba(0,0,0,0.2): black shadow color at 20% opacity 
+  */
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
 ```
 
 <br />
