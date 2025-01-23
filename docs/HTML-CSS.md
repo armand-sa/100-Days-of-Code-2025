@@ -17,6 +17,7 @@
 9. **[CSS - Centering an Element🔻](#centering-an-element)** 
 10. **[HTML - ⚠️ Semantic HTML🔻](#semantic-html)**
 11. **[CSS - ⚠️ Selectors and Combinators🔻](#css-selectors-and-combinators)**
+12. **[HTML - Dates `<time>`🔻](#html-dates-time)**
 
 
 <br />
@@ -529,6 +530,21 @@ p::selection { }       /* Selected text [0,0,0,1] */
 > **Remember these orders:**
 > - Links: **LoVe HAte** (Link, Visited, Hover, Active)
 > - Buttons: **HAF D** (Hover, Active, Focus, Disabled)
+
+<br />
+
+**[Return to Top 🔝](#100-days-of-code-2025)**
+
+---
+
+## HTML Dates `<time>`
+
+
+```html
+<h2>
+  <time datetime="2025-01-23">Thursday, January 23rd, 2025</time>
+</h2>
+```
 
 <br />
 
