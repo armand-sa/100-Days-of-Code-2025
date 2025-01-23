@@ -17,7 +17,7 @@
 9. **[CSS - Centering an Element🔻](#centering-an-element)** 
 10. **[HTML - ⚠️ Semantic HTML🔻](#semantic-html)**
 11. **[CSS - ⚠️ Selectors and Combinators🔻](#css-selectors-and-combinators)**
-12. **[HTML - Dates `<time>`🔻](#html-dates-time)**
+12. **[HTML - 📅 Dates `<time>`🔻](#html-dates-time)**
 
 
 <br />
