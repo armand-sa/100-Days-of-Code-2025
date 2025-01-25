@@ -2,14 +2,14 @@
 
 ## Index:
 
-## HTML &amp; CSS:
+## HTML & CSS:
 
 1. **[HTML - Anatomy of an HTML element🔻](#anatomy-of-an-html-element)**
 2. **[CSS - Anatomy of an CSS Ruleset/Rule🔻](#anatomy-of-a-css-ruleset)**
 3. **[CSS - Inline, Internal, External🔻](#css---inline-internal-external)**
 4. **[CSS - ⚠️ CORRECT ORDER for Pseudo-classes for `<a>` (anchor tags) & `<button>` (buttons)🔻](#correct-order-for-pseudo-classes-for-a-anchor-tags--button-buttons)**  
 
-## HTML &amp; CSS Deep Dive:  
+## HTML & CSS Deep Dive:  
 5. **[CSS - Remove list styles, e.g. circle, squares, numbers, etc.🔻](#remove-list-styles-eg-circle-squares-numbers-etc)**
 6. **[CSS - Box Model - ⚠️ Box Sizing🔻](#box-model---box-sizing)**  
 7. **[CSS - ⚠️ Different VALUES AND SHORTHANDS for PADDING and MARGIN🔻](#different-values-and-shorthands-for-padding-and-margin)**  
@@ -19,7 +19,7 @@
 11. **[CSS - ⚠️ Selectors and Combinators🔻](#css-selectors-and-combinators)**
 12. **[HTML - 📅 Dates `<time>`🔻](#html-dates-time)**
 13. **[CSS - 🎁 Box Shadows🔻](#css-box-shadows)**
-
+14. **[HTML - 📄 Download Links🔻](#html-download-links)**
 <br />
 
 ---
@@ -565,6 +565,20 @@ li {
   */
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
+```
+
+<br />
+
+**[Return to Top 🔝](#100-days-of-code-2025)**
+
+---
+
+## HTML Download Links
+
+
+```html
+<!-- Use the "download" attribute to allow users to download the file -->
+<a href="example.pdf" download>Download PDF</a>
 ```
 
 <br />

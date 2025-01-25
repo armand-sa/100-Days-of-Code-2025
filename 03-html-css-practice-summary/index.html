@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Section 4: HTML &amp; CSS - Practice &amp;amp; Summary [Days 9 - 10]</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Section 4: HTML &amp; CSS - Practice &amp; Summary [Days 9 - 10]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTML &amp; CSS Basics Summary</h1>
+      <figure>
+        <img src="assets/images/html-css.webp" alt="HTML and CSS logos" />
+      </figure>
+    </header>
+    <main>
+      <article>
+        <h2>HTML Summary</h2>
+        <p class="first-paragraph">
+          HTML (HyperText Markup Language) is used to define our page content, structure and meaning.
+          <br />
+          You
+          <strong>don't</strong>
+          use it for styling purposes. Use CSS for that instead!
+        </p>
+
+        <!-- UL Section -->
+        <ul>
+          <li>
+            <span class="line-show"></span><p>HTML uses "elements" to describe (annotate) content</p>
+          </li>
+          <li>
+            <span class="line-hide"></span><p>HTML elements typically have an opening tag, content, and then a closing tag</p>
+          </li>
+          <li>
+            <span class="line-show"></span><p>You can also have void (empty) elements like images</p>
+          </li>
+          <li>
+            <span class="line-show"></span><p>You can also configure elements with attributes</p>
+          </li>
+          <li>
+            <span class="line-hide"></span><p>There's a long list of available elements, but you'll gain experience over time, no worries.</p>
+          </li>
+        </ul>
+        <p>
+          Learn more about all available HTML elements on
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" rel="noopener noreferrer" target="_blank">the MDN HTML element reference</a>
+          .
+        </p>
+      </article>
+      <article>
+        <h2>CSS Summary</h2>
+        <p class="first-paragraph">
+          CSS (Cascading Style Sheets) is used to define your page's style. Use CSS for styling purposes.
+        </p>
+
+        <!-- 2nd UL Section -->
+        <ul>
+          <li>
+            <span class="line-hide"></span><p>Styles are assigned via property-value pairs</p>
+          </li>
+          <li>
+            <span class="line-hide"></span><p>You can assign styles via the "style" attribute</p>
+          </li>
+          <li>
+            <span class="line-show"></span><p>To avoid code duplication, you typically use global styles (e.g. via the "style" element) instead</p>
+          </li>
+          <li>
+            <span class="line-hide"></span><p>Alternatively, you can work with external stylesheet files which you "link" to</p>
+          </li>
+          <li>
+            <span class="line-show"></span><p>When working with CSS, concepts like "inheritance", "specificity", and the "box model" should be understood</p>
+          </li>
+        </ul>
+        <p>Learn more about all available CSS properties and values on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" rel="noopener noreferrer" target="_blank">the MDN CSS property reference</a>.</p>
+      </article>
+    </main>
+    <footer>
+      <a href="example.pdf" download>Download PDF Summary</a>
+      <p><small>&copy; 2025 Armand McKey. All rights reserved.</small></p>
+    </footer>
+  </body>
 </html>

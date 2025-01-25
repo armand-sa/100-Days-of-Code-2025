@@ -1,0 +1,147 @@
+/* ! Global Styling */
+/* Resetting all elements to default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting the font size to 100% for accessibility - scale with user's browser settings */
+html {
+  font-size: 100%;
+}
+
+/* Body styling */
+body {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  letter-spacing: .0625rem;
+  line-height: 1.5;
+  /* Darker background #474E93 */
+  background-color: #7E5CAD;
+  color: #F5F5F5;
+  padding: 50px;
+}
+
+/*
+  H1: ~2–3rem (32–48px)
+  H2: ~1.5–2rem (24–32px)
+  Paragraph: 1rem (16px)
+*/
+
+header,
+main,
+footer {
+  width: 80%;
+  max-width: 96rem;
+  margin: 0 auto 3.125rem auto;
+  text-align: center;
+}
+
+article {
+  padding: 3.125rem 1.5625rem;
+}
+
+article:first-of-type {
+  padding-bottom: 0;
+}
+
+/* Headings' styling */
+h1, h2 {
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+/* ! Header Section Styling */
+h1 {
+  font-size: 3rem;
+  margin: 0 auto 3.125rem auto;
+}
+
+img {
+  width: 25%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* ! Main Section Styling */
+main {
+  background-color: #474E93;
+  text-align: left;
+  border-radius: .5rem;
+  max-width: 850px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 auto 1.5625rem auto;
+}
+
+strong {
+  font-weight: 900;
+}
+
+.first-paragraph {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+li {
+  display: flex;
+  align-items: stretch;
+}
+
+.line-show {
+  display: inline-block;
+  width: .25rem;
+  background-color: #F5D34D;
+  margin-right: 1rem;
+}
+
+.line-show ~ p {
+  color: #F8E8B8;
+}
+
+li:not(:last-of-type) {
+  margin-bottom: 0.5rem;
+}
+
+.line-hide {
+  display: inline-block;
+  width: .25rem;
+  background-color: #F5D34D;
+  margin-right: 1rem;
+  visibility: hidden;
+}
+
+p > a {
+  display: inline-block;
+  color: darkmagenta;
+  text-decoration: none;
+  background-color: #FEEEB2;
+  padding: .3125rem;
+  border-radius: .3125rem;
+  transition: all 0.3s ease-in-out;
+}
+
+p > a:hover {
+  background-color: #F5D34D;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+p > a:active {
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(4px);
+}
+
+/* ! Footer Section Styling */
