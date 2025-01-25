@@ -2,14 +2,14 @@
 
 ## Index:
 
-## HTML & CSS:
+## HTML &amp; CSS:
 
 1. **[HTML - Anatomy of an HTML element🔻](#anatomy-of-an-html-element)**
 2. **[CSS - Anatomy of an CSS Ruleset/Rule🔻](#anatomy-of-a-css-ruleset)**
 3. **[CSS - Inline, Internal, External🔻](#css---inline-internal-external)**
 4. **[CSS - ⚠️ CORRECT ORDER for Pseudo-classes for `<a>` (anchor tags) & `<button>` (buttons)🔻](#correct-order-for-pseudo-classes-for-a-anchor-tags--button-buttons)**  
 
-## HTML & CSS Deep Dive:  
+## HTML &amp; CSS Deep Dive:  
 5. **[CSS - Remove list styles, e.g. circle, squares, numbers, etc.🔻](#remove-list-styles-eg-circle-squares-numbers-etc)**
 6. **[CSS - Box Model - ⚠️ Box Sizing🔻](#box-model---box-sizing)**  
 7. **[CSS - ⚠️ Different VALUES AND SHORTHANDS for PADDING and MARGIN🔻](#different-values-and-shorthands-for-padding-and-margin)**  
