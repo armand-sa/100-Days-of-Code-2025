@@ -20,6 +20,10 @@
 12. **[HTML - 📅 Dates `<time>`🔻](#html-dates-time)**
 13. **[CSS - 🎁 Box Shadows🔻](#css-box-shadows)**
 14. **[HTML - 📄 Download Links🔻](#html-download-links)**
+15. **[HTML - 🥇 Perfect `<head>` Section🔻](#html-perfect-head-section)**
+16. **[HTML - 🥇 Perfect 📂 Folder and 🗃️ File Structure🔻](#html-perfect-folder-and-file-structure)**
+
+
 <br />
 
 ---
@@ -582,6 +586,144 @@ li {
 ```html
 <!-- Use the "download" attribute to allow users to download the file -->
 <a href="assets/documents/html-css-basics-summary.pdf" download target="_blank" rel="noopener noreferrer">Download PDF Summary</a>
+```
+
+<br />
+
+**[Return to Top 🔝](#100-days-of-code-2025)**
+
+---
+
+## HTML Perfect `<head>` Section   
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Declare the document type as HTML5 -->
+    <meta charset="UTF-8" />
+    
+    <!-- Set the viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title: Aim for 50-60 characters for SEO -->
+    <title>Descriptive Page Title</title>
+
+    <!-- Meta description: Ideal length is 150-160 characters -->
+    <meta name="description" content="Brief and engaging description of the page content to improve SEO and click-through rates." />
+
+    <!-- Language settings for accessibility -->
+    <meta http-equiv="Content-Language" content="en" />
+
+    <!-- Specify the page author -->
+    <meta name="author" content="Your Name or Company" />
+
+    <!-- Control search engine indexing (index and follow links on this page) -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Improve performance by preconnecting to required resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Link to the external CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicon for browser tabs -->
+    <link rel="icon" href="images/favicon.ico" />
+
+    <!-- Add a manifest file if building a Progressive Web App (PWA) -->
+    <link rel="manifest" href="manifest.json" />
+    <!-- Sets the browser toolbar color on some mobile browsers -->
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Open Graph (OG) meta tags for social media sharing -->
+    <!-- Title: Ideal length is 50-60 characters -->
+    <meta property="og:title" content="Descriptive Page Title for Sharing" />
+    <!-- Description: Optimal length is 150-200 characters -->
+    <meta property="og:description" content="An engaging and descriptive summary of your page content to encourage clicks from social media." />
+    <!-- Image: Provide a high-resolution image (recommended size: 1200x630px) -->
+    <meta property="og:image" content="https://www.example.com/images/og-image.jpg" />
+    <!-- URL: Specify the canonical URL of the shared page -->
+    <meta property="og:url" content="https://www.example.com/page-url" />
+    <!-- Type: Define the type of content (e.g., website, article, video) -->
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card meta tags for better presentation on Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Title: Ideal length is 50-70 characters -->
+    <meta name="twitter:title" content="Engaging Page Title for Twitter" />
+    <!-- Description: Optimal length is 120-150 characters -->
+    <meta name="twitter:description" content="A short and compelling description to encourage engagement on Twitter." />
+    <!-- Image: Recommended image size is 1200x675px -->
+    <meta name="twitter:image" content="https://www.example.com/images/twitter-image.jpg" />
+    <!-- Specify the site username (if applicable) -->
+    <meta name="twitter:site" content="@YourTwitterHandle" />
+
+    <!-- Load external JavaScript for interactivity -->
+    <!-- Place JavaScript files at the end of <body> for faster page rendering -->
+  </head>
+  <body>
+    <!-- Main page content goes here -->
+
+    <!-- Load external JavaScript before the closing body tag -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
+```
+
+<br />
+
+**[Return to Top 🔝](#100-days-of-code-2025)**
+
+---
+
+
+## HTML Perfect Folder and File Structure   
+
+
+```css
+project-root/
+├── index.html
+├── about.html
+├── contact.html
+├── assets/
+│   ├── css/
+│   │   ├── styles.css
+│   │   ├── reset.css
+│   │   └── components/
+│   │       ├── header.css
+│   │       ├── footer.css
+│   │       ├── buttons.css
+│   │       └── forms.css
+│   ├── js/
+│   │   ├── scripts.js
+│   │   └── modules/
+│   │       ├── slider.js
+│   │       ├── form-validation.js
+│   │       ├── navigation.js
+│   │       └── analytics.js
+│   ├── images/
+│   │   ├── favicon.ico
+│   │   ├── logo.png
+│   │   ├── banner.jpg
+│   │   └── icons/
+│   │       ├── facebook-icon.png
+│   │       ├── twitter-icon.png
+│   │       └── instagram-icon.png
+│   ├── fonts/
+│   │   └── custom-font.woff2
+│   └── data/
+│       ├── products.json
+│       └── user-data.json
+├── docs/
+│   └── project-manual.pdf
+├── tests/
+│   ├── unit/
+│   │   └── example-test.js
+│   └── e2e/
+│       └── example-test.spec.js
+└── README.md
 ```
 
 <br />
