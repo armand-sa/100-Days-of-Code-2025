@@ -41,7 +41,8 @@
 
 ## Anatomy of a CSS ruleset
 
-![Anatomy of a CSS ruleset](../assets/css-anatomy.jpg)
+![Anatomy of a CSS ruleset](../assets/css-anatomy.jpg)  
+**CSS Ruleset/Rule**
 
 <br />
 

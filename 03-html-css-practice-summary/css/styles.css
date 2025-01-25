@@ -13,7 +13,7 @@ html {
 
 /* Body styling */
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -25,12 +25,6 @@ body {
   color: #F5F5F5;
   padding: 50px;
 }
-
-/*
-  H1: ~2–3rem (32–48px)
-  H2: ~1.5–2rem (24–32px)
-  Paragraph: 1rem (16px)
-*/
 
 header,
 main,
@@ -57,11 +51,11 @@ h1, h2 {
 
 /* ! Header Section Styling */
 h1 {
-  font-size: 3rem;
+  font-size: 3.25rem;
   margin: 0 auto 1.5625rem auto;
 }
 
-img {
+header img {
   width: 25%;
   height: auto;
   margin: 0 auto;
