@@ -575,10 +575,13 @@ li {
 
 ## HTML Download Links
 
+> [!TIP]
+> **Adding rel="noopener noreferrer" is recommended when using target="_blank". It improves security and performance.It’s still a good habit even for internal resources.**  
+
 
 ```html
 <!-- Use the "download" attribute to allow users to download the file -->
-<a href="example.pdf" download>Download PDF</a>
+<a href="assets/documents/html-css-basics-summary.pdf" download target="_blank" rel="noopener noreferrer">Download PDF Summary</a>
 ```
 
 <br />
