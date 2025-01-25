@@ -682,7 +682,7 @@ li {
 ## HTML Perfect Folder and File Structure   
 
 
-```css
+```bash
 project-root/
 ├── index.html
 ├── about.html
@@ -704,13 +704,18 @@ project-root/
 │   │       ├── navigation.js
 │   │       └── analytics.js
 │   ├── images/
-│   │   ├── favicon.ico
-│   │   ├── logo.png
-│   │   ├── banner.jpg
-│   │   └── icons/
-│   │       ├── facebook-icon.png
-│   │       ├── twitter-icon.png
-│   │       └── instagram-icon.png
+│   │   ├── favicon/                 # Store your favicon(s) here
+│   │   │   └── favicon.ico
+│   │   ├── icons/                   # Shared icons (social media, etc.)
+│   │   │   ├── facebook-icon.png
+│   │   │   ├── twitter-icon.png
+│   │   │   └── instagram-icon.png
+│   │   ├── shared/                  # Common images used on multiple pages
+│   │   │   ├── logo.png
+│   │   │   └── banner.jpg
+│   │   └── about/                   # Page-specific images for "about" page (example)
+│   │       ├── about-team.jpg
+│   │       └── about-office.jpg
 │   ├── fonts/
 │   │   └── custom-font.woff2
 │   └── data/
@@ -724,7 +729,8 @@ project-root/
 │   └── e2e/
 │       └── example-test.spec.js
 └── README.md
-```
+```  
+
 
 <br />
 
