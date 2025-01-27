@@ -292,6 +292,7 @@ git branch -D branch-name
 
 ## GitHub - Adding files to GitHub  
 
+***After steps above, you can add files to GitHub***
 
 ![GitHub](../assets/GitHub.webp)  
 
@@ -307,7 +308,7 @@ git branch -D branch-name
 
 **Copy repository from GitHub to local computer**
 
-![GitHub](../assets/GitHub.webp)  
+ 
 
 1. Open empty named folder in vs code
 2. Open terminal in vs code
@@ -330,11 +331,13 @@ git push origin main
 
 ## GitHub - Collaboration on Projects with other developers  
 
+1. Accept invitation to collaborate on a project
+2. Clone the repository to your local computer
+3. Make changes to the code
+4. Commit the changes to your branch
+5. Push your changes to GitHub
+6. Create a pull request to merge your changes into the main branch
 
-
-```bash
-
-```
 
 <br />
 
