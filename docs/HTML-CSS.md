@@ -586,7 +586,7 @@ li {
 
 ```html
 <!-- Use the "download" attribute to allow users to download the file -->
-<a href="assets/documents/html-css-basics-summary.pdf" download target="_blank" rel="noopener noreferrer">Download PDF Summary</a>
+<a href="assets/documents/html-css-basics-summary.pdf" target="_blank" rel="noopener noreferrer">Download PDF Summary</a>
 ```
 
 <br />
