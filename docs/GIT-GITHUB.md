@@ -5,6 +5,7 @@
 ## Git:
 
 1. **[Windows Command Prompt - Commands🔻](#windows-command-prompt---commands)**
+2. **[Git - Commands🔻](#git---commands**
 
 ## GitHub:
 
@@ -49,7 +50,7 @@ D:
 
 ### 4. Go from `C:\Users>` go to arman
 
-#### Below is relative paths
+***Below is relative paths***
 
 ```cmd
 cd arman
@@ -61,7 +62,7 @@ cd arman
 cd OneDrive\Desktop
 ```  
 
-#### Below is absolute paths (What developers use)
+***Below is absolute paths (What developers use)***
 
 ```cmd
 cd C:\Users\arman\OneDrive\Desktop
@@ -84,6 +85,95 @@ cd /
 ```cmd
 cls
 ```  
+
+### 7. Create a new folder
+
+```cmd
+mkdir new-folder
+```  
+
+### 8. Create a new file with content of "Hello, Armand"
+
+```cmd
+echo "Hello, Armand" > new-file.txt
+```  
+
+### 9. To read the file content
+
+```cmd
+type new-file.txt
+``` 
+
+### 10. Delete a file
+
+```cmd
+del new-file.txt
+``` 
+
+### 11. Delete a folder
+
+```cmd
+rmdir new-folder
+``` 
+
+### 12. Delete a folder and all files inside it
+
+```cmd
+rmdir /s new-folder
+``` 
+
+
+<br />
+
+**[Return to Top 🔝](#version-control---git--github)**
+
+---
+
+## Git - Commands
+
+
+### 1. See what git version is installed
+
+```bash
+git --version
+```    
+
+### 2. Initialize a git repository
+
+- ***A brand new folder open in vs code, open terminal and run:***
+
+```bash
+git init
+```    
+
+- ***See if project is now being run by git:***
+
+```bash
+git status
+```    
+
+- ***Add a file that should be tracked by git:***
+
+```bash
+git add index.html
+```    
+
+- ***Get the user name and email:***
+
+```bash
+git config --global user.name
+git config --global user.email
+``` 
+
+- ***Update the user name and email:***
+
+```bash
+git config --global user.name "Armand"
+git config --global user.email "armand@example.com"
+``` 
+
+
+
 
 
 
