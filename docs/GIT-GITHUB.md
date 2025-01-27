@@ -11,7 +11,7 @@
 
 ## GitHub:
 
-1. **[GitHub - Anatomy of an HTML element🔻](#anatomy-of-an-html-element)**
+1. **[GitHub - Adding files to GitHub🔻](#github---adding-files-to-github)**
 
 
 
@@ -286,5 +286,19 @@ git branch -D branch-name
 <br />
 
 **[Return to Top 🔝](#version-control---git--github)**
+
+---
+
+## GitHub - Adding files to GitHub  
+
+
+![GitHub](../assets/GitHub.webp)  
+
+
+<br />
+
+**[Return to Top 🔝](#version-control---git--github)**
+
+
 
 ---
