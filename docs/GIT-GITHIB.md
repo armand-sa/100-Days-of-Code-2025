@@ -31,8 +31,9 @@
 
 ```cmd
 dir
-```
+```  
 
+![dir](../assets/dir.webp) 
 
 <br />
 
