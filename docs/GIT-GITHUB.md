@@ -45,7 +45,7 @@ cd ..
 
 ```cmd
 D:
-```   
+```    
 
 ### 4. Go from `C:\Users>` go to arman
 
@@ -53,31 +53,39 @@ D:
 
 ```cmd
 cd arman
-``` 
+```  
 
 **Go to desktop from `C:\Users\arman>`**
 
 ```cmd
 cd OneDrive\Desktop
-``` 
+```  
 
 #### Below is absolute paths (What developers use)
 
 ```cmd
 cd C:\Users\arman\OneDrive\Desktop
-``` 
+```  
 
 **To go to C:\Users**
 
 ```cmd
 cd C:\Users\
-``` 
+```   
 
 ### 5. Go to root directory
 
 ```cmd
 cd /
-``` 
+```  
+
+### 6. Clear the screen
+
+```cmd
+cls
+```  
+
+
 
 <br />
 
