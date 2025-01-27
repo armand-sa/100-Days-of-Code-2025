@@ -12,7 +12,7 @@
 ### Index:  
 
 1. **[HTML & CSS🔻](./docs/HTML-CSS.md)**
-2. **[Version Control - Git & GitHub🔻](./docs/GIT-GITHIB.md)**
+2. **[Version Control - Git & GitHub🔻](./docs/GIT-GITHUB.md)**
 
 <br />
 
