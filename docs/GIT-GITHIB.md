@@ -21,7 +21,9 @@
 ### GUI and CLI
 
 - **GUI** - Graphical User Interface - top window
+  - **File Explorer** - file manager
 - **CLI** - Command Line Interface - bottom window
+  - **Command Prompt** - command line interface
 
 ![GUI and CLI](../assets/gui-and-cli.webp)  
 
