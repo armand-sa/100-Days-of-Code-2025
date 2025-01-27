@@ -192,6 +192,12 @@ git log
 q
 ``` 
 
+- ***Commit the file to the repository:***
+
+```bash
+git commit -m "Initial commit"
+``` 
+
 
 
 
