@@ -5,7 +5,7 @@
 ## Git:
 
 1. **[Windows Command Prompt - Commands🔻](#windows-command-prompt---commands)**
-2. **[Git - Commands🔻](#git---commands**
+2. **[Git - Commands🔻](#git---commands)**
 
 ## GitHub:
 
