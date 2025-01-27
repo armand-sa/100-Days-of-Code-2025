@@ -6,6 +6,7 @@
 
 1. **[Windows Command Prompt - Commands🔻](#windows-command-prompt---commands)**
 2. **[Git - Commands🔻](#git---commands)**
+3. **[Git - Branches🔻](#git---branches)**
 
 ## GitHub:
 
@@ -132,13 +133,13 @@ rmdir /s new-folder
 ## Git - Commands
 
 
-### 1. See what git version is installed
+***See what git version is installed***
 
 ```bash
 git --version
 ```    
 
-### 2. Initialize a git repository
+***Initialize a git repository***
 
 - ***A brand new folder open in vs code, open terminal and run:***
 
@@ -198,6 +199,19 @@ q
 git commit -m "Initial commit"
 ``` 
 
+<br />
+
+**[Return to Top 🔝](#version-control---git--github)**
+
+---
+
+### Git - Branches
+
+- ***A brand new folder open in vs code, open terminal and run:***
+
+```bash
+git init
+```    
 
 
 
