@@ -27,7 +27,11 @@
 
 ![GUI and CLI](../assets/gui-and-cli.webp)  
 
+### See what is inside a folder
 
+```cmd
+dir
+```
 
 
 <br />
