@@ -158,7 +158,9 @@ git status
 git add index.html
 ```    
 
-- ***Get the user name and email:***
+**Credentials check / update (Optional)**
+
+- ***Get/check the user name and email:***
 
 ```bash
 git config --global user.name
@@ -172,7 +174,23 @@ git config --global user.name "Armand"
 git config --global user.email "armand@example.com"
 ``` 
 
+- ***See what files need to be committed:***
 
+```bash
+git status
+``` 
+
+- ***Displays the commit history of a Git repository:***
+
+```bash
+git log
+``` 
+
+- ***Exit commit history:***
+
+```bash
+q
+``` 
 
 
 
