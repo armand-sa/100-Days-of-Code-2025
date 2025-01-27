@@ -12,7 +12,8 @@
 ## GitHub:
 
 1. **[GitHub - Adding files to GitHub🔻](#github---adding-files-to-github)**
-
+2. **[GitHub - Nothing on computer, get from GitHub🔻](#github---nothing-on-computer-get-from-github)**
+3. **[GitHub - Collaboration on Projects with other developers🔻](#github---collaboration-on-projects-with-other-developers)**
 
 
 <br />
@@ -299,6 +300,45 @@ git branch -D branch-name
 
 **[Return to Top 🔝](#version-control---git--github)**
 
+
+---
+
+## GitHub - Nothing on computer, get from GitHub  
+
+**Copy repository from GitHub to local computer**
+
+![GitHub](../assets/GitHub.webp)  
+
+1. Open empty named folder in vs code
+2. Open terminal in vs code
+3. Run `git clone https://github.com/username/repository.git` .
+4. Using the URL of the repository and a space followed by ` .`, it downloads the repository's contents directly into the current folder, without creating a new subfolder.
+5. Created a new file/folder locally in the cloned repository and want to commit it to GitHub?
+
+```bash
+git add .
+git commit -m "Added local text file after clone"
+git push origin main
+```
+
+<br />
+
+**[Return to Top 🔝](#version-control---git--github)**
+
+
+---
+
+## GitHub - Collaboration on Projects with other developers  
+
+
+
+```bash
+
+```
+
+<br />
+
+**[Return to Top 🔝](#version-control---git--github)**
 
 
 ---
