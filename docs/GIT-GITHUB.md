@@ -7,6 +7,7 @@
 1. **[Windows Command Prompt - Commands🔻](#windows-command-prompt---commands)**
 2. **[Git - Commands🔻](#git---commands)**
 3. **[Git - Branches🔻](#git---branches)**
+4. **[Git - Delete Branches🔻](#git---delete-branches)**  
 
 ## GitHub:
 
@@ -207,12 +208,79 @@ git commit -m "Initial commit"
 
 ### Git - Branches
 
-- ***A brand new folder open in vs code, open terminal and run:***
+- ***See current branch:***
 
 ```bash
-git init
-```    
+git branch
+```  
 
+- ***See all branches:***
+
+```bash
+git branch -a
+```  
+
+- ***Rename the current branch to `main`:***
+
+```bash
+git branch -m main
+```  
+
+- ***Create and switch to a new branch:***
+
+```bash
+git checkout -b new-branch
+``` 
+
+- ***Stage and commit changes in the new branch:***
+
+```bash
+git add index.html
+git commit -m "Add index.html to new-branch"
+```
+
+- ***Merge changes from one branch into another:***
+
+1. Switch to the main branch
+
+```bash
+git checkout main
+```  
+
+2. Merge the new branch into the main branch
+
+```bash
+git merge new-branch
+```  
+
+
+<br />
+
+**[Return to Top 🔝](#version-control---git--github)**
+
+---
+
+### Git - Delete Branches
+
+- ***Delete a file in a branch:***
+
+```bash
+git rm file-name
+```  
+
+- ***Restore deleted file in branch:***
+
+`HEAD~1` means "go back one commit from the current commit (HEAD)" in your Git history. 
+
+```bash
+git reset --hard HEAD~1
+```  
+
+- ***Delete a branch:***
+
+```bash
+git branch -D branch-name
+```  
 
 
 <br />
