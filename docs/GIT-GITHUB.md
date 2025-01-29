@@ -7,17 +7,17 @@
 ## 📌 Index:  
 
 ### 🖥 Git (Local Version Control)  
-1. **[Windows Command Prompt - Essential Commands 🔻](#windows-command-prompt---essential-commands)**  
-2. **[Git - Core Commands 🔻](#git---core-commands)**  
-3. **[Git - Working with Branches 🔻](#git---working-with-branches)**  
-4. **[Git - Deleting Branches 🔻](#git---deleting-branches)**  
+1. **[Windows Command Prompt - Essential Commands 🔻](#-windows-command-prompt---essential-commands)**  
+2. **[Git - Core Commands 🔻](#-git---core-commands)**  
+3. **[Git - Working with Branches 🔻](#-git---working-with-branches)**  
+4. **[Git - Deleting Branches 🔻](#-git---deleting-branches)**  
 
 ### 🌍 GitHub (Online Repository Management)  
-5. **[GitHub - Adding Files 🔻](#github---adding-files)**  
-6. **[GitHub - Cloning a Repository 🔻](#github---cloning-a-repository)**  
-7. **[GitHub - Personal Access Tokens (PATs) 🔻](#github---personal-access-tokens-pats)**  
-8. **[GitHub - Collaborating on Projects 🔻](#github---collaborating-on-projects)**  
-9. **[GitHub - Forking and Pull Requests 🔻](#github---forking-and-pull-requests)**  
+5. **[GitHub - Adding Files 🔻](#-github---adding-files)**  
+6. **[GitHub - Cloning a Repository 🔻](#-github---cloning-a-repository)**  
+7. **[GitHub - Personal Access Tokens (PATs) 🔻](#-github---personal-access-tokens-pats)**  
+8. **[GitHub - Collaborating on Projects 🔻](#-github---collaborating-on-projects)**  
+9. **[GitHub - Forking and Pull Requests 🔻](#-github---forking-and-pull-requests)**  
 
 ---
 
