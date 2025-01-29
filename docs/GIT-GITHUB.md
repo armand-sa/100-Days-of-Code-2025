@@ -1,347 +1,235 @@
-# Version Control - Git & GitHub
+# Version Control - Git & GitHub  
 
-## Index:
-
-## Git:
-
-1. **[Windows Command Prompt - Commands🔻](#windows-command-prompt---commands)**
-2. **[Git - Commands🔻](#git---commands)**
-3. **[Git - Branches🔻](#git---branches)**
-4. **[Git - Delete Branches🔻](#git---delete-branches)**  
-
-## GitHub:
-
-1. **[GitHub - Adding files to GitHub🔻](#github---adding-files-to-github)**
-2. **[GitHub - Nothing on computer, get from GitHub🔻](#github---nothing-on-computer-get-from-github)**
-3. **[GitHub - Collaboration on Projects with other developers🔻](#github---collaboration-on-projects-with-other-developers)**
-
-
-<br />
+✨ **New to Git & GitHub?** No worries! This guide walks you through everything **step-by-step** from basic commands to working with repositories.  
 
 ---
 
-## Windows Command Prompt - Commands
+## 📌 Index:  
 
-### GUI and CLI
+### 🖥 Git (Local Version Control)  
+1. **[Windows Command Prompt - Essential Commands 🔻](#windows-command-prompt---essential-commands)**  
+2. **[Git - Core Commands 🔻](#git---core-commands)**  
+3. **[Git - Working with Branches 🔻](#git---working-with-branches)**  
+4. **[Git - Deleting Branches 🔻](#git---deleting-branches)**  
 
-- **GUI** - Graphical User Interface - top window
-  - **File Explorer** - file manager
-- **CLI** - Command Line Interface - bottom window
-  - **Command Prompt** - command line interface
-
-![GUI and CLI](../assets/gui-and-cli.webp)  
-
-### 1. See what is inside a folder
-
-```cmd
-dir
-```    
-
-![dir](../assets/dir.webp) 
-
-### 2. One folder up
-
-```cmd
-cd ..
-```   
-
-### 3. Move into another drive
-
-```cmd
-D:
-```    
-
-### 4. Go from `C:\Users>` go to arman
-
-***Below is relative paths***
-
-```cmd
-cd arman
-```  
-
-**Go to desktop from `C:\Users\arman>`**
-
-```cmd
-cd OneDrive\Desktop
-```  
-
-***Below is absolute paths (What developers use)***
-
-```cmd
-cd C:\Users\arman\OneDrive\Desktop
-```  
-
-**To go to C:\Users**
-
-```cmd
-cd C:\Users\
-```   
-
-### 5. Go to root directory
-
-```cmd
-cd /
-```  
-
-### 6. Clear the screen
-
-```cmd
-cls
-```  
-
-### 7. Create a new folder
-
-```cmd
-mkdir new-folder
-```  
-
-### 8. Create a new file with content of "Hello, Armand"
-
-```cmd
-echo "Hello, Armand" > new-file.txt
-```  
-
-### 9. To read the file content
-
-```cmd
-type new-file.txt
-``` 
-
-### 10. Delete a file
-
-```cmd
-del new-file.txt
-``` 
-
-### 11. Delete a folder
-
-```cmd
-rmdir new-folder
-``` 
-
-### 12. Delete a folder and all files inside it
-
-```cmd
-rmdir /s new-folder
-``` 
-
-
-<br />
-
-**[Return to Top 🔝](#version-control---git--github)**
+### 🌍 GitHub (Online Repository Management)  
+5. **[GitHub - Adding Files 🔻](#github---adding-files)**  
+6. **[GitHub - Cloning a Repository 🔻](#github---cloning-a-repository)**  
+7. **[GitHub - Personal Access Tokens (PATs) 🔻](#github---personal-access-tokens-pats)**  
+8. **[GitHub - Collaborating on Projects 🔻](#github---collaborating-on-projects)**  
+9. **[GitHub - Forking and Pull Requests 🔻](#github---forking-and-pull-requests)**  
 
 ---
 
-## Git - Commands
+## 🖥 Windows Command Prompt - Essential Commands  
 
+### GUI vs CLI  
+- **GUI (Graphical User Interface)** → Uses menus, buttons, and windows (e.g., File Explorer).  
+- **CLI (Command Line Interface)** → Uses text-based commands (e.g., Command Prompt, Terminal).  
 
-***See what git version is installed***
+### 💡 Basic Command Line Navigation  
 
+| **Command**               | **Action**                                   | **Example**                      |
+|---------------------------|---------------------------------------------|----------------------------------|
+| `dir`                     | List files and folders                      | `dir`                            |
+| `cd folder-name`          | Move into a folder                          | `cd Projects`                    |
+| `cd ..`                   | Move up one level                           | `cd ..`                          |
+| `D:`                      | Switch to another drive                     | `D:`                             |
+| `mkdir folder-name`       | Create a new folder                         | `mkdir new-folder`               |
+| `echo "text" > file.txt`  | Create a file with text                     | `echo "Hello" > hello.txt`       |
+| `type file.txt`           | Display file contents                       | `type hello.txt`                 |
+| `del file.txt`            | Delete a file                               | `del hello.txt`                  |
+| `rmdir /s folder-name`    | Delete a folder and all contents            | `rmdir /s old-project`           |
+
+**[⬆ Back to Top](#version-control---git--github)**  
+
+---
+
+## 🔧 Git - Core Commands  
+
+### 1️⃣ Checking & Setting Up Git  
+✅ **Check Git installation:**  
 ```bash
 git --version
-```    
-
-***Initialize a git repository***
-
-- ***A brand new folder open in vs code, open terminal and run:***
-
+```  
+✅ **Initialize a Git repository:**  
 ```bash
 git init
-```    
-
-- ***See if project is now being run by git:***
-
+```  
+✅ **Check repository status:**  
 ```bash
 git status
-```    
-
-- ***Add a file that should be tracked by git:***
-
+```  
+✅ **Set username & email (required for commits):**  
 ```bash
-git add index.html
-```    
-
-**Credentials check / update (Optional)**
-
-- ***Get/check the user name and email:***
-
-```bash
-git config --global user.name
-git config --global user.email
-``` 
-
-- ***Update the user name and email:***
-
-```bash
-git config --global user.name "Armand"
-git config --global user.email "armand@example.com"
-``` 
-
-- ***See what files need to be committed:***
-
-```bash
-git status
-``` 
-
-- ***Displays the commit history of a Git repository:***
-
-```bash
-git log
-``` 
-
-- ***Exit commit history:***
-
-```bash
-q
-``` 
-
-- ***Commit the file to the repository:***
-
-```bash
-git commit -m "Initial commit"
-``` 
-
-<br />
-
-**[Return to Top 🔝](#version-control---git--github)**
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```  
 
 ---
 
-### Git - Branches
-
-- ***See current branch:***
-
+### 2️⃣ Tracking Changes  
+✅ **Stage a file for commit (prepare it to be saved):**  
 ```bash
-git branch
+git add filename.txt
 ```  
-
-- ***See all branches:***
-
+✅ **Stage all changes:**  
 ```bash
-git branch -a
+git add .
 ```  
-
-- ***Rename the current branch to `main`:***
-
+✅ **Commit changes (save them with a message):**  
 ```bash
-git branch -m main
+git commit -m "Your commit message"
 ```  
-
-- ***Create and switch to a new branch:***
-
+✅ **View commit history:**  
 ```bash
-git checkout -b new-branch
-``` 
-
-- ***Stage and commit changes in the new branch:***
-
-```bash
-git add index.html
-git commit -m "Add index.html to new-branch"
+git log
 ```
+*(Press `q` to exit log view.)*  
 
-- ***Merge changes from one branch into another:***
+**[⬆ Back to Top](#version-control---git--github)**  
 
-1. Switch to the main branch
+---
 
+## 🌱 Git - Working with Branches  
+
+Branches let you work on different features **without affecting the main code**.  
+
+✅ **Create a new branch:**  
+```bash
+git checkout -b feature-branch
+```  
+✅ **Switch branches:**  
 ```bash
 git checkout main
 ```  
-
-2. Merge the new branch into the main branch
-
+✅ **List all branches:**  
 ```bash
-git merge new-branch
+git branch -a
 ```  
+✅ **Merge changes from a branch into `main`:**  
+1. Switch to `main`:  
+   ```bash
+   git checkout main
+   ```
+2. Merge branch:  
+   ```bash
+   git merge feature-branch
+   ```
+⚠ **Handling Merge Conflicts?**  
+- If Git detects conflicts, open the affected file and manually resolve issues.  
 
-
-<br />
-
-**[Return to Top 🔝](#version-control---git--github)**
+**[⬆ Back to Top](#version-control---git--github)**  
 
 ---
 
-### Git - Delete Branches
+## 🗑 Git - Deleting Branches  
 
-- ***Delete a file in a branch:***
-
+✅ **Delete a branch locally:**  
 ```bash
-git rm file-name
+git branch -D branch-name
 ```  
-
-- ***Restore deleted file in branch:***
-
-`HEAD~1` means "go back one commit from the current commit (HEAD)" in your Git history. 
-
+✅ **Undo last commit (restore a deleted file):**  
 ```bash
 git reset --hard HEAD~1
 ```  
 
-- ***Delete a branch:***
+**[⬆ Back to Top](#version-control---git--github)**  
 
+---
+
+## 🚀 GitHub - Adding Files  
+
+✅ **Link local repo to GitHub:**  
 ```bash
-git branch -D branch-name
+git remote add origin https://github.com/username/repository.git
+```  
+✅ **Push code to GitHub:**  
+```bash
+git push -u origin main
 ```  
 
-
-<br />
-
-**[Return to Top 🔝](#version-control---git--github)**
+**[⬆ Back to Top](#version-control---git--github)**  
 
 ---
 
-## GitHub - Adding files to GitHub  
+## 📂 GitHub - Cloning a Repository  
 
-***After steps above, you can add files to GitHub***
-
-![GitHub](../assets/GitHub.webp)  
-
-
-<br />
-
-**[Return to Top 🔝](#version-control---git--github)**
-
-
----
-
-## GitHub - Nothing on computer, get from GitHub  
-
-**Copy repository from GitHub to local computer**
-
- 
-
-1. Open empty named folder in vs code
-2. Open terminal in vs code
-3. Run `git clone https://github.com/username/repository.git` .
-4. Using the URL of the repository and a space followed by ` .`, it downloads the repository's contents directly into the current folder, without creating a new subfolder.
-5. Created a new file/folder locally in the cloned repository and want to commit it to GitHub?
-
+✅ **Copy the repository URL from GitHub** and clone it to your local machine:  
 ```bash
-git add .
-git commit -m "Added local text file after clone"
+git clone https://github.com/username/repository.git
+```  
+
+**[⬆ Back to Top](#version-control---git--github)**  
+
+---
+
+## 🔑 GitHub - Personal Access Tokens (PATs)  
+
+GitHub now **requires a PAT** instead of a password for authentication.  
+
+### 🛠 How to Generate a PAT:  
+1. Go to **GitHub** → Click on your profile picture.  
+2. Navigate to **Settings** → **Developer settings** → **Personal Access Tokens (Classic)**.  
+3. Click **Generate new token (classic)**.  
+4. Set an **expiration date** & select the `repo` scope.  
+5. Click **Generate Token** and **copy it**! *(You won’t see it again!)*  
+
+### 🔄 Use PAT Instead of Password:  
+When Git asks for a password, **paste the PAT** instead.  
+```bash
 git push origin main
 ```
 
-<br />
+🚨 **Never share your PAT!** Store it securely (e.g., in a password manager).  
 
-**[Return to Top 🔝](#version-control---git--github)**
+**[⬆ Back to Top](#version-control---git--github)**  
 
+---
+
+## 🤝 GitHub - Collaborating on Projects  
+
+### Steps to Work as a Team:  
+1. Accept the **GitHub invitation** to the repository.  
+2. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/project-owner/repository.git
+   ```
+3. **Create a new branch & make changes**:  
+   ```bash
+   git checkout -b feature-branch
+   ```
+4. **Push your changes**:  
+   ```bash
+   git add .
+   git commit -m "Added feature"
+   git push origin feature-branch
+   ```
+5. **Create a Pull Request (PR)** on GitHub to merge your changes.  
+
+**[⬆ Back to Top](#version-control---git--github)**  
 
 ---
 
-## GitHub - Collaboration on Projects with other developers  
+## 🍴 GitHub - Forking and Pull Requests  
 
-1. Accept invitation to collaborate on a project
-2. Clone the repository to your local computer
-3. Make changes to the code
-4. Commit the changes to your branch
-5. Push your changes to GitHub
-6. Create a pull request to merge your changes into the main branch
+✅ **Fork the repository** (if you don’t have direct access).  
+✅ **Clone your fork**:  
+```bash
+git clone https://github.com/your-username/repository.git
+```  
+✅ **Sync with the original repository**:  
+```bash
+git remote add upstream https://github.com/original-owner/repository.git
+```  
+✅ **Make changes, push & submit a Pull Request**:  
+```bash
+git checkout -b fix-bug
+git add .
+git commit -m "Fix critical bug"
+git push origin fix-bug
+```  
 
+🎉 **Done!** The original repository owner will review your PR.  
 
-<br />
-
-**[Return to Top 🔝](#version-control---git--github)**
-
-
----
+**[⬆ Back to Top](#version-control---git--github)**  
