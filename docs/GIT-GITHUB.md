@@ -41,7 +41,7 @@
 | `del file.txt`            | Delete a file                               | `del hello.txt`                  |
 | `rmdir /s folder-name`    | Delete a folder and all contents            | `rmdir /s old-project`           |
 
-**[⬆ Back to Top](#version-control---git--github)**  
+**[🔝 Back to Top](#version-control---git--github)**  
 
 ---
 
@@ -116,10 +116,10 @@ git branch -a
    ```bash
    git merge feature-branch
    ```
-⚠ **Handling Merge Conflicts?**  
+⚠️ **Handling Merge Conflicts?**  
 - If Git detects conflicts, open the affected file and manually resolve issues.  
 
-**[⬆ Back to Top](#version-control---git--github)**  
+**[🔝 Back to Top](#version-control---git--github)**  
 
 ---
 
@@ -134,7 +134,7 @@ git branch -D branch-name
 git reset --hard HEAD~1
 ```  
 
-**[⬆ Back to Top](#version-control---git--github)**  
+**[🔝 Back to Top](#version-control---git--github)**  
 
 ---
 
@@ -149,7 +149,7 @@ git remote add origin https://github.com/username/repository.git
 git push -u origin main
 ```  
 
-**[⬆ Back to Top](#version-control---git--github)**  
+**[🔝 Back to Top](#version-control---git--github)**  
 
 ---
 
@@ -160,7 +160,7 @@ git push -u origin main
 git clone https://github.com/username/repository.git
 ```  
 
-**[⬆ Back to Top](#version-control---git--github)**  
+**[🔝 Back to Top](#version-control---git--github)**  
 
 ---
 
@@ -183,7 +183,7 @@ git push origin main
 
 🚨 **Never share your PAT!** Store it securely (e.g., in a password manager).  
 
-**[⬆ Back to Top](#version-control---git--github)**  
+**[🔝 Back to Top](#version-control---git--github)**  
 
 ---
 
@@ -207,7 +207,7 @@ git push origin main
    ```
 5. **Create a Pull Request (PR)** on GitHub to merge your changes.  
 
-**[⬆ Back to Top](#version-control---git--github)**  
+**[🔝 Back to Top](#version-control---git--github)**  
 
 ---
 
@@ -232,4 +232,4 @@ git push origin fix-bug
 
 🎉 **Done!** The original repository owner will review your PR.  
 
-**[⬆ Back to Top](#version-control---git--github)**  
+**[🔝 Back to Top](#version-control---git--github)**  
