@@ -4,12 +4,12 @@
 
 ## 📌 Index:    
 
-1. **[Default properties of flex `container`🔻](#default-properties-of-flex-container)** 
-
+1. **[Flex🔻](#default-properties-of-flex-container)** 
+2. **[🧭 Position🔻](#position)** 
 
 ---   
 
-## Default properties of flex `container`  
+## Flex   
 
 ```css
 #container {
@@ -41,6 +41,20 @@
   /* Items will wrap when they exceed container width */
   flex-basis: 150px; 
 }
+```
+
+
+
+**[🔝 Back to Top](#html--css---layout-and-positioning)**
+
+---  
+
+## Position  
+
+
+
+```css
+
 ```
 
 
