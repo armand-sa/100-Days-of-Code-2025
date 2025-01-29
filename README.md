@@ -13,6 +13,7 @@
 
 1. **[HTML & CSS🔻](./docs/HTML-CSS.md)**
 2. **[Version Control - Git & GitHub🔻](./docs/GIT-GITHUB.md)**
+3. **[HTML & CSS - Layout and Positioning🔻](./docs/HTML-CSS-LAYOUT-AND-POSITIONING.md)**
 
 <br />
 
