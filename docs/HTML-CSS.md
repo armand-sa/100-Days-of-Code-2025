@@ -22,7 +22,7 @@
 14. **[HTML - 📄 Download Links🔻](#html-download-links)**
 15. **[HTML - 🥇 Perfect `<head>` Section🔻](#html-perfect-head-section)**
 16. **[HTML - 🥇 Perfect 📂 Folder and 🗃️ File Structure🔻](#html-perfect-folder-and-file-structure)**
-
+17. **[CSS - 🖼️ Background Image🔻](#css---background-image)**
 
 <br />
 
@@ -730,6 +730,26 @@ project-root/
 │   └── e2e/
 │       └── example-test.spec.js
 └── README.md
+```  
+
+
+<br />
+
+**[Return to Top 🔝](#100-days-of-code-2025)**
+
+---
+
+
+## CSS - Background Image   
+
+
+```css
+#hero {
+  height: 800px;
+  background-image: url(../images/places/ocean.webp);
+  background-position: center;
+  background-size: cover;
+}
 ```  
 
 
