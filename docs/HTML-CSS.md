@@ -24,6 +24,7 @@
 16. **[HTML - 🥇 Perfect 📂 Folder and 🗃️ File Structure🔻](#html-perfect-folder-and-file-structure)**
 17. **[CSS - 🖼️ BACKGROUND Image🔻](#css---background-image)**
 18. **[CSS - 🖼️ Image to cover the `<img>` element🔻](#css---image-to-cover-the-img-element)**
+19. **[CSS - 🏳️‍🌈 Giving a background a LINEAR GRADIENT🔻](#css---giving-a-background-a-linear-gradient)**
 
  
 
@@ -773,6 +774,24 @@ project-root/
   width: 100%;
   /* Images covers the space perfectly */
   object-fit: cover;
+}
+```  
+
+
+<br />
+
+**[Return to Top 🔝](#100-days-of-code-2025)**
+
+---
+
+
+## CSS - Giving a background a LINEAR GRADIENT   
+
+
+```css
+#highlights {
+  /* Angle in degrees, 1st color, second color */
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(210, 245, 250));
 }
 ```  
 
