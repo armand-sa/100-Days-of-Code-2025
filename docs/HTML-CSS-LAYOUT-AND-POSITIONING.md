@@ -78,28 +78,26 @@
 ```css
 /* 
   Basic Explanation:
-  - "vw" means "viewport width". 1vw is 1% of the browser window's width.
-    Example: If the window is 1200px wide:
-      1vw = 12px   (1200px / 100)
+  - "vw" means "viewport width". For example, if the viewport is 1200px wide:
+      1vw = 12px  (1200px / 100)
       2vw = 24px, etc.
   - "clamp(min, preferred, max)" sets a value that:
-      • Never goes below the minimum value,
+      • Never goes below the min,
       • Uses a value that scales with the viewport (the preferred value),
-      • Never exceeds the maximum value.
+      • Never exceeds the max.
 */
 
 /* 
   Set the base font size using the user's browser settings.
-  This means the HTML element uses the default size (usually 16px).
-  So, 1rem will equal about 16px (unless the user has changed their settings).
+  html { font-size: 100%; } respects the default (usually 16px), so 1rem ≈ 16px.
 */
 html {
   font-size: 100%;  /* 1rem ≈ 16px (by default) */
 }
 
 /* 
-  Mobile-first styling starts on the body.
-  We use relative units (rem) so sizes scale based on the user's default.
+  Mobile-first styling: For smaller screens (default)
+  We use rem units so that sizes are relative to the user's base font size.
 */
 body {
   margin: 0;
@@ -107,70 +105,34 @@ body {
   line-height: 1.6;
   
   /* 
-    Fluid base font size for the body:
+    For small screens, the body font size will be:
     - Minimum: 1rem (≈16px)
-    - Preferred: 2vw (if viewport is 1200px, 2vw = 24px)
-    - Maximum: 1.125rem (≈18px, because 1.125 x 16px = 18px)
+    - Preferred: 2vw (for a 1200px viewport, 2vw ≈ 24px)
+    - Maximum: 1.125rem (≈18px)
+    
+    This means on very small screens the size stays at 1rem,
+    and as the viewport grows, it scales up but never goes over 1.125rem.
   */
   font-size: clamp(1rem, 2vw, 1.125rem);
 }
 
 /* 
-  Heading (h1) styling:
-  - Minimum: 1.5rem (≈24px)
-  - Preferred: 5vw (if viewport is 1200px, 5vw = 60px)
-  - Maximum: 2.5rem (≈40px)
-*/
-h1 {
-  font-size: clamp(1.5rem, 5vw, 2.5rem);
-  
-  /* 
-    Bottom margin for h1:
-    - Minimum: 0.5rem (≈8px)
-    - Preferred: 2vw (if viewport is 1200px, 2vw = 24px)
-    - Maximum: 1rem (≈16px)
-  */
-  margin-bottom: clamp(0.5rem, 2vw, 1rem);
-}
-
-/* 
-  Paragraph styling:
-  - Minimum: 1rem (≈16px)
-  - Preferred: 2.5vw (if viewport is 1200px, 2.5vw = 30px)
-  - Maximum: 1.25rem (≈20px)
-*/
-p {
-  font-size: clamp(1rem, 2.5vw, 1.25rem);
-  /* Margin bottom:
-     - Minimum: 0.75rem (≈12px)
-     - Preferred: 2.5vw (≈30px on a 1200px viewport)
-     - Maximum: 1.5rem (≈24px) */
-  margin-bottom: clamp(0.75rem, 2.5vw, 1.5rem);
-}
-
-/* 
-  Container padding:
-  - Minimum: 1rem (≈16px)
-  - Preferred: 2vw (if viewport is 1200px, 2vw = 24px)
-  - Maximum: 2rem (≈32px)
-*/
-.container {
-  padding: clamp(1rem, 2vw, 2rem);
-}
-
-/* 
   Adjustments for larger screens using a media query.
-  When the screen is at least 768px wide, we adjust the base font size for the body.
+  When the screen is at least 768px wide, we update the body's font size
+  to better suit larger displays.
 */
 @media (min-width: 768px) {
   body {
     /* 
-      For larger screens, the base font size will:
+      For larger screens, the body font size will be:
       - Minimum: 1rem (≈16px)
-      - Preferred: 1.5vw (if viewport is 1200px, 1.5vw = 18px)
-      - Maximum: 1.125rem (≈18px)
+      - Preferred: 1.5vw (for a 1200px viewport, 1.5vw ≈ 18px)
+      - Maximum: 1.25rem (≈20px)
+      
+      This adjustment means that on wider screens, text will scale a bit larger,
+      improving readability while staying within comfortable limits.
     */
-    font-size: clamp(1rem, 1.5vw, 1.125rem);
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
   }
 }
 ```
