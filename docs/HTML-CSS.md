@@ -750,9 +750,16 @@ project-root/
 ```css
 #hero {
   height: 800px;
+  /* Fallback color in case the image doesn't load */
+  background-color: #000;
+  /* Background image */
   background-image: url(../images/places/ocean.webp);
+  /* Center the image */
   background-position: center;
+  /* Scale image to cover the container */
   background-size: cover;
+  /* Prevent the image from repeating */
+  background-repeat: no-repeat;
 }
 ```  
 
